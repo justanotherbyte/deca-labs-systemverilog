@@ -15,3 +15,5 @@ If you would like to run the test-benches, ensure you have `make` and, crucially
 Navigate into the circuit or component's directory and call `make`. This will run `verilator` and open a wave visualization with `gtkwave`.
 
 This repo was developed on Ubuntu, though it'll likely work on other operating systems and WSL.
+
+Alternatively, you can open the existing `dump.vcd` files in each respective directory with `gtkwave` directly, bypassing the need to use `verilator` should you wish.
