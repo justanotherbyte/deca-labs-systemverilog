@@ -6,7 +6,7 @@ $timescale 1ps $end
    $var wire 1 $ A $end
    $var wire 1 % B $end
    $var wire 1 & Y $end
-   $scope module m $end
+   $scope module mux2 $end
     $var wire 1 # S $end
     $var wire 1 $ A $end
     $var wire 1 % B $end
@@ -23,7 +23,6 @@ $enddefinitions $end
 1%
 0&
 #1
-#2
 1#
 1&
-#3
+#2
