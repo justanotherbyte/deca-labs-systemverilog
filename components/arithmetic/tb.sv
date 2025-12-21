@@ -1,3 +1,4 @@
+`ifndef VERILATOR
 module tb();
   logic [3:0] A = 4'd10;
   logic [3:0] B = 4'd03;
@@ -31,3 +32,4 @@ module tb();
     $dumpvars;
   end
 endmodule: tb;
+`endif
