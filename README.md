@@ -17,3 +17,9 @@ Navigate into the circuit or component's directory and call `make`. This will ru
 This repo was developed on Ubuntu, though it'll likely work on other operating systems and WSL.
 
 Alternatively, you can open the existing `dump.vcd` files in each respective directory with `gtkwave` directly, bypassing the need to use `verilator` should you wish.
+
+## A note on implementation decisions
+
+A lot of this repo implements structural combinational logic, while it could be heavily simplified with behavioural combinational logic. This is intentional, keeping it consistent with the labs.
+
+I've implemented some components behaviourally out of curiosity. Cool stuff.
