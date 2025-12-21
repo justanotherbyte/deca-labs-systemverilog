@@ -13,7 +13,7 @@ module tb();
   end
 
   initial begin
-   #100;
+   #200;
    $finish();
   end
 
