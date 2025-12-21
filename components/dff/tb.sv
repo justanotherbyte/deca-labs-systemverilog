@@ -18,6 +18,8 @@ module tb();
     #1
     D = 1;
     #10
+    D = 0;
+    #6;
     $finish();
   end
 
