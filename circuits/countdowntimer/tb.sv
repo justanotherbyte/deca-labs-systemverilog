@@ -48,4 +48,4 @@ module tb_nor();
     $dumpvars;
   end
 
-endmodule: tb_nor 
+endmodule: tb_nor
