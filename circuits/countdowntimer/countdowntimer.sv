@@ -6,7 +6,7 @@ module nor4(
 endmodule: nor4
 
 module countdowntimer(
-  input clk,
+  input logic clk,
   input logic [3:0] D,
   output logic [3:0] Q
 );
